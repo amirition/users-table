@@ -11,7 +11,7 @@ use Amirition\Inpsyde\Admin\UsersInfo;
 use Amirition\Inpsyde\Front\UsersTemplate;
 use Amirition\Inpsyde\Front\Scripts;
 
-final class InpsydeTest
+final class AmiritionInpsyde
 {
     /**
      * @var UsersTableEndpoint

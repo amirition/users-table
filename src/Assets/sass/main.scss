@@ -1,0 +1,11 @@
+.inpsyde-table-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  table {
+    width: 65%;
+  }
+  .sidebar {
+    width: 33%;
+  }
+}

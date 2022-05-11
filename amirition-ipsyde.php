@@ -1,7 +1,7 @@
 <?php 
 
 /**
- * Plugin Name: Inpsyde Test Assignment 
+ * Plugin Name: Amirition Inpsyde Test
  * Plugin URI:
  * Description: Test Assignment to Show WordPress Users on Frontend 
  * Version: 0.1.0
@@ -12,9 +12,9 @@
 
  namespace Amirition\Inpsyde; 
 
- if (!class_exists(InpsydeTest::class) && is_readable(__DIR__.'/vendor/autoload.php')) {
+ if (!class_exists(AmiritionInpsyde::class) && is_readable(__DIR__.'/vendor/autoload.php')) {
   /** @noinspection PhpIncludeInspection */
   require_once __DIR__.'/vendor/autoload.php';
 }
 
-class_exists(InpsydeTest::class) && InpsydeTest::instance();
+class_exists(AmiritionInpsyde::class) && AmiritionInpsyde::instance();

@@ -1,0 +1,17 @@
+.inpsyde-table-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.inpsyde-table-container table {
+  width: 65%;
+}
+.inpsyde-table-container .sidebar {
+  width: 33%;
+}
+
+td:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
