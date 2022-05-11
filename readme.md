@@ -22,3 +22,5 @@ List of available filters:
 ## Development
 Download the last stable version. In terminal, navigate to the plugin folder and run "composer install". Happy coding! That's all you need! 
 
+# License 
+This plugin is licensed under MIT License
