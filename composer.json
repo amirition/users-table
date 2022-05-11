@@ -1,0 +1,33 @@
+{
+    "name": "amirition/inpsyde",
+    "description": "A simple plugin that shows user information on the frontend",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Amirition\\Inpsyde\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amirition\\Inpsyde\\Tests\\Unit\\": "tests/PHPUnit/Unit/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amir Arabnezhad"
+        }
+    ],
+    "require-dev": {
+        "inpsyde/php-coding-standards": "^1.0",
+        "brain/monkey": "2.*",
+        "phpunit/phpunit": "9.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
