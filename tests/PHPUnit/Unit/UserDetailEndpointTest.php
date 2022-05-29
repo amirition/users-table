@@ -1,9 +1,9 @@
 <?php
-namespace Amirition\Inpsyde\Tests\Unit;
+namespace Amirition\UTable\Tests\Unit;
 
 
-use Amirition\Inpsyde\Admin\UserDetailEndpoint;
-use Amirition\Inpsyde\Admin\UsersInfo;
+use Amirition\UTable\Admin\UserDetailEndpoint;
+use Amirition\UTable\Admin\UsersInfo;
 use Brain\Monkey\Functions;
 
 

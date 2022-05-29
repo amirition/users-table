@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirition\Inpsyde\Tests\Unit;
+namespace Amirition\UTable\Tests\Unit;
 
 use Brain\Monkey;
 use PHPUnit\Framework\TestCase;

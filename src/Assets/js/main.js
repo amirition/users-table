@@ -1,10 +1,10 @@
 // Vanilla ES6
-if (document.querySelector('.inpsyde-table-container') ) {
-    const inpsydeTableContainer = document.querySelector('.inpsyde-table-container')
-    const sidebar = inpsydeTableContainer.querySelector('.sidebar-content');
+if (document.querySelector('.amirition-table-container') ) {
+    const amiritionTableContainer = document.querySelector('.amirition-table-container')
+    const sidebar = amiritionTableContainer.querySelector('.sidebar-content');
 
     // We should use binding elements on this table, it's better than registering an event handler for every link
-    const table = inpsydeTableContainer.querySelector('table')
+    const table = amiritionTableContainer.querySelector('table')
     table.addEventListener(
         'click',
         function ( e ) {

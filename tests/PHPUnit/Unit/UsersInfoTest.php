@@ -1,8 +1,8 @@
 <?php
 
-namespace Amirition\Inpsyde\Tests\Unit;
+namespace Amirition\UTable\Tests\Unit;
 
-use Amirition\Inpsyde\Admin\UsersInfo;
+use Amirition\UTable\Admin\UsersInfo;
 use Brain\Monkey\Functions;
 
 class UsersInfoTest extends AbstractUnitTestCase

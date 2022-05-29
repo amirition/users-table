@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Amirition\Inpsyde\Admin;
+namespace Amirition\UTable\Admin;
 
-use Amirition\Inpsyde\Front\UsersTemplate;
+use Amirition\UTable\Front\UsersTemplate;
 
 class UsersTableEndpoint implements CustomEndpointInterface
 {
@@ -12,7 +12,6 @@ class UsersTableEndpoint implements CustomEndpointInterface
 
     /**
      * Filter hook to use, when we want to change the custom url
-     * custom_inpsyde_url
      */
     private $customUrlFilter;
 
@@ -26,7 +25,7 @@ class UsersTableEndpoint implements CustomEndpointInterface
      */
     public function __construct(UsersTemplate $usersTemplate)
     {
-        $this->customUrl = 'inpsyde-users-table';
+        $this->customUrl = 'amirition-users-table';
         $this->customUrlFilter = 'ait_users_table_url';
         $this->usersTemplate = $usersTemplate;
         $this->setHooks();

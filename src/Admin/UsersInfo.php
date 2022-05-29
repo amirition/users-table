@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Amirition\Inpsyde\Admin;
+namespace Amirition\UTable\Admin;
 
 class UsersInfo
 {

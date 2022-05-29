@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Amirition\UTable;
 
-use Amirition\Utable\Admin\UsersTableEndpoint;
+use Amirition\UTable\Admin\UsersTableEndpoint;
 use Amirition\UTable\Admin\CustomEndpointInterface;
 use Amirition\UTable\Admin\UserDetailEndpoint;
 use Amirition\UTable\Admin\UsersInfo;
@@ -30,7 +30,6 @@ final class AmiritionUTable
 
     public static $pluginName = 'amirition-users-table';
 
-    public static $pluginVersion = '0.1.0';
     public static $pluginVersion = '0.1.0';
 
     /**

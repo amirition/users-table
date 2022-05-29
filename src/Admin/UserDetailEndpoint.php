@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirition\Inpsyde\Admin;
+namespace Amirition\UTable\Admin;
 
 class UserDetailEndpoint implements CustomEndpointInterface
 {

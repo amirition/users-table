@@ -1,12 +1,12 @@
-.inpsyde-table-container {
+.amirition-table-container {
   padding: 30px;
   display: flex;
   justify-content: space-between;
 }
-.inpsyde-table-container table {
+.amirition-table-container table {
   width: 65%;
 }
-.inpsyde-table-container .sidebar {
+.amirition-table-container .sidebar {
   width: 33%;
 }
 

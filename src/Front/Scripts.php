@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Amirition\Inpsyde\Front;
+namespace Amirition\UTable\Front;
 
-use Amirition\Inpsyde\Admin\UserDetailEndpoint;
+use Amirition\UTable\Admin\UserDetailEndpoint;
 
 class Scripts
 {

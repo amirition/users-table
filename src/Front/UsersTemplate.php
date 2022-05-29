@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Amirition\Inpsyde\Front;
+namespace Amirition\UTable\Front;
 
-use Amirition\Inpsyde\Admin\UsersInfo;
+use Amirition\UTable\Admin\UsersInfo;
 
 class UsersTemplate
 {
@@ -44,7 +44,7 @@ class UsersTemplate
     private function getUsersTable(): string
     {
 
-        $content = '<div class="inpsyde-table-container">';
+        $content = '<div class="amirition-table-container">';
 
         $users = $this->usersInfo->getAllUsers();
 
