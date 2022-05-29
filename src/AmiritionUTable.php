@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Amirition\Inpsyde;
+namespace Amirition\UTable;
 
-use Amirition\Inpsyde\Admin\UsersTableEndpoint;
-use Amirition\Inpsyde\Admin\CustomEndpointInterface;
-use Amirition\Inpsyde\Admin\UserDetailEndpoint;
-use Amirition\Inpsyde\Admin\UsersInfo;
-use Amirition\Inpsyde\Front\UsersTemplate;
-use Amirition\Inpsyde\Front\Scripts;
+use Amirition\Utable\Admin\UsersTableEndpoint;
+use Amirition\UTable\Admin\CustomEndpointInterface;
+use Amirition\UTable\Admin\UserDetailEndpoint;
+use Amirition\UTable\Admin\UsersInfo;
+use Amirition\UTable\Front\UsersTemplate;
+use Amirition\UTable\Front\Scripts;
 
-final class AmiritionInpsyde
+final class AmiritionUTable
 {
     /**
      * @var UsersTableEndpoint
@@ -28,8 +28,9 @@ final class AmiritionInpsyde
      */
     private $scripts;
 
-    public static $pluginName = 'inpsyde-users-table';
+    public static $pluginName = 'amirition-users-table';
 
+    public static $pluginVersion = '0.1.0';
     public static $pluginVersion = '0.1.0';
 
     /**
